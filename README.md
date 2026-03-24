@@ -99,6 +99,10 @@ Relevant variables:
 └── program.py
 ```
 
+## Contributors
+
+- Mingli Yuan
+
 ## License
 
 MIT
