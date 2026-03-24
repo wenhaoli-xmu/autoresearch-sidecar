@@ -1,0 +1,16 @@
+[project]
+name = "autoresearch-sidecar"
+version = "0.1.0"
+description = "A sidecar agent runtime for Karpathy-style autoresearch repositories."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "requests>=2.32.0",
+]
+
+[project.scripts]
+autoresearch-sidecar = "main:main"
+
+[tool.uv]
+package = false
